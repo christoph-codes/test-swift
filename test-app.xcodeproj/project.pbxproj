@@ -17,6 +17,8 @@
 		C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A62823C88700F0001D /* ContentView.swift */; };
 		C4BA62D12823C88A00F0001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA62A72823C88A00F0001D /* Assets.xcassets */; };
 		C4BA62D22823C88A00F0001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA62A72823C88A00F0001D /* Assets.xcassets */; };
+		C4BA62E22823D13500F0001D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62E12823D13500F0001D /* CircleImage.swift */; };
+		C4BA62E32823D13500F0001D /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62E12823D13500F0001D /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,8 @@
 		C4BA62A52823C88700F0001D /* ito_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ito_mobileApp.swift; sourceTree = "<group>"; };
 		C4BA62A62823C88700F0001D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4BA62A72823C88A00F0001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4BA62AC2823C88A00F0001D /* ito-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ito-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4BA62B22823C88A00F0001D /* ito-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ito-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62AC2823C88A00F0001D /* test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62B22823C88A00F0001D /* test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA62B42823C88A00F0001D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		C4BA62B92823C88A00F0001D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA62BD2823C88A00F0001D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		C4BA62C52823C88A00F0001D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4BA62C92823C88A00F0001D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C4BA62CB2823C88A00F0001D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		C4BA62E12823D13500F0001D /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,7 @@
 				C4BA62A52823C88700F0001D /* ito_mobileApp.swift */,
 				C4BA62A62823C88700F0001D /* ContentView.swift */,
 				C4BA62A72823C88A00F0001D /* Assets.xcassets */,
+				C4BA62E12823D13500F0001D /* CircleImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -107,8 +111,8 @@
 		C4BA62AD2823C88A00F0001D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4BA62AC2823C88A00F0001D /* ito-mobile.app */,
-				C4BA62B22823C88A00F0001D /* ito-mobile.app */,
+				C4BA62AC2823C88A00F0001D /* test-app.app */,
+				C4BA62B22823C88A00F0001D /* test-app.app */,
 				C4BA62B92823C88A00F0001D /* Tests iOS.xctest */,
 				C4BA62C52823C88A00F0001D /* Tests macOS.xctest */,
 			);
@@ -144,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */ = {
+		C4BA62AB2823C88A00F0001D /* test-app (iOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (iOS)" */;
+			buildConfigurationList = C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "test-app (iOS)" */;
 			buildPhases = (
 				C4BA62A82823C88A00F0001D /* Sources */,
 				C4BA62A92823C88A00F0001D /* Frameworks */,
@@ -156,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = "ito-mobile (iOS)";
+			name = "test-app (iOS)";
 			productName = "ito-mobile (iOS)";
-			productReference = C4BA62AC2823C88A00F0001D /* ito-mobile.app */;
+			productReference = C4BA62AC2823C88A00F0001D /* test-app.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */ = {
+		C4BA62B12823C88A00F0001D /* test-app (macOS) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (macOS)" */;
+			buildConfigurationList = C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "test-app (macOS)" */;
 			buildPhases = (
 				C4BA62AE2823C88A00F0001D /* Sources */,
 				C4BA62AF2823C88A00F0001D /* Frameworks */,
@@ -173,9 +177,9 @@
 			);
 			dependencies = (
 			);
-			name = "ito-mobile (macOS)";
+			name = "test-app (macOS)";
 			productName = "ito-mobile (macOS)";
-			productReference = C4BA62B22823C88A00F0001D /* ito-mobile.app */;
+			productReference = C4BA62B22823C88A00F0001D /* test-app.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4BA62B82823C88A00F0001D /* Tests iOS */ = {
@@ -240,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "ito-mobile" */;
+			buildConfigurationList = C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "test-app" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,8 +257,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */,
-				C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */,
+				C4BA62AB2823C88A00F0001D /* test-app (iOS) */,
+				C4BA62B12823C88A00F0001D /* test-app (macOS) */,
 				C4BA62B82823C88A00F0001D /* Tests iOS */,
 				C4BA62C42823C88A00F0001D /* Tests macOS */,
 			);
@@ -301,6 +305,7 @@
 			files = (
 				C4BA62CF2823C88A00F0001D /* ContentView.swift in Sources */,
 				C4BA62CD2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+				C4BA62E22823D13500F0001D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +315,7 @@
 			files = (
 				C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */,
 				C4BA62CE2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+				C4BA62E32823D13500F0001D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,12 +342,12 @@
 /* Begin PBXTargetDependency section */
 		C4BA62BB2823C88A00F0001D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */;
+			target = C4BA62AB2823C88A00F0001D /* test-app (iOS) */;
 			targetProxy = C4BA62BA2823C88A00F0001D /* PBXContainerItemProxy */;
 		};
 		C4BA62C72823C88A00F0001D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */;
+			target = C4BA62B12823C88A00F0001D /* test-app (macOS) */;
 			targetProxy = C4BA62C62823C88A00F0001D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -477,8 +483,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
-				PRODUCT_NAME = "ito-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.test-app";
+				PRODUCT_NAME = "test-app";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -507,8 +513,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
-				PRODUCT_NAME = "ito-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.test-app";
+				PRODUCT_NAME = "test-app";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -537,8 +543,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
-				PRODUCT_NAME = "ito-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.test-app";
+				PRODUCT_NAME = "test-app";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -565,8 +571,8 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
-				PRODUCT_NAME = "ito-mobile";
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.test-app";
+				PRODUCT_NAME = "test-app";
 				SDKROOT = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,7 +661,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "ito-mobile" */ = {
+		C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "test-app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4BA62D32823C88A00F0001D /* Debug */,
@@ -664,7 +670,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (iOS)" */ = {
+		C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "test-app (iOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4BA62D62823C88A00F0001D /* Debug */,
@@ -673,7 +679,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (macOS)" */ = {
+		C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "test-app (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4BA62D92823C88A00F0001D /* Debug */,
