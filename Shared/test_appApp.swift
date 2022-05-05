@@ -1,5 +1,5 @@
 //
-//  ito_mobileApp.swift
+//  test_appApp.swift
 //  Shared
 //
 //  Created by Christopher Jones on 5/5/22.
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ito_mobileApp: App {
+struct test_appApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

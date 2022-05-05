@@ -11,8 +11,8 @@
 		C4BA62C02823C88A00F0001D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62BF2823C88A00F0001D /* Tests_iOSLaunchTests.swift */; };
 		C4BA62CA2823C88A00F0001D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62C92823C88A00F0001D /* Tests_macOS.swift */; };
 		C4BA62CC2823C88A00F0001D /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62CB2823C88A00F0001D /* Tests_macOSLaunchTests.swift */; };
-		C4BA62CD2823C88A00F0001D /* ito_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* ito_mobileApp.swift */; };
-		C4BA62CE2823C88A00F0001D /* ito_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* ito_mobileApp.swift */; };
+		C4BA62CD2823C88A00F0001D /* test_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* test_appApp.swift */; };
+		C4BA62CE2823C88A00F0001D /* test_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* test_appApp.swift */; };
 		C4BA62CF2823C88A00F0001D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A62823C88700F0001D /* ContentView.swift */; };
 		C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A62823C88700F0001D /* ContentView.swift */; };
 		C4BA62D12823C88A00F0001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA62A72823C88A00F0001D /* Assets.xcassets */; };
@@ -39,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4BA62A52823C88700F0001D /* ito_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ito_mobileApp.swift; sourceTree = "<group>"; };
+		C4BA62A52823C88700F0001D /* test_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_appApp.swift; sourceTree = "<group>"; };
 		C4BA62A62823C88700F0001D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4BA62A72823C88A00F0001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4BA62AC2823C88A00F0001D /* test-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "test-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,7 +100,7 @@
 		C4BA62A42823C88700F0001D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C4BA62A52823C88700F0001D /* ito_mobileApp.swift */,
+				C4BA62A52823C88700F0001D /* test_appApp.swift */,
 				C4BA62A62823C88700F0001D /* ContentView.swift */,
 				C4BA62A72823C88A00F0001D /* Assets.xcassets */,
 				C4BA62E12823D13500F0001D /* CircleImage.swift */,
@@ -304,7 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BA62CF2823C88A00F0001D /* ContentView.swift in Sources */,
-				C4BA62CD2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+				C4BA62CD2823C88A00F0001D /* test_appApp.swift in Sources */,
 				C4BA62E22823D13500F0001D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -314,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */,
-				C4BA62CE2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+				C4BA62CE2823C88A00F0001D /* test_appApp.swift in Sources */,
 				C4BA62E32823D13500F0001D /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
