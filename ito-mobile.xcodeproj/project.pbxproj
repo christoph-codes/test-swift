@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4BA62BE2823C88A00F0001D /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62BD2823C88A00F0001D /* Tests_iOS.swift */; };
+		C4BA62C02823C88A00F0001D /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62BF2823C88A00F0001D /* Tests_iOSLaunchTests.swift */; };
+		C4BA62CA2823C88A00F0001D /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62C92823C88A00F0001D /* Tests_macOS.swift */; };
+		C4BA62CC2823C88A00F0001D /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62CB2823C88A00F0001D /* Tests_macOSLaunchTests.swift */; };
+		C4BA62CD2823C88A00F0001D /* ito_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* ito_mobileApp.swift */; };
+		C4BA62CE2823C88A00F0001D /* ito_mobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A52823C88700F0001D /* ito_mobileApp.swift */; };
+		C4BA62CF2823C88A00F0001D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A62823C88700F0001D /* ContentView.swift */; };
+		C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BA62A62823C88700F0001D /* ContentView.swift */; };
+		C4BA62D12823C88A00F0001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA62A72823C88A00F0001D /* Assets.xcassets */; };
+		C4BA62D22823C88A00F0001D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4BA62A72823C88A00F0001D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4BA62BA2823C88A00F0001D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BA62A02823C88700F0001D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BA62AB2823C88A00F0001D;
+			remoteInfo = "ito-mobile (iOS)";
+		};
+		C4BA62C62823C88A00F0001D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4BA62A02823C88700F0001D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4BA62B12823C88A00F0001D;
+			remoteInfo = "ito-mobile (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4BA62A52823C88700F0001D /* ito_mobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ito_mobileApp.swift; sourceTree = "<group>"; };
+		C4BA62A62823C88700F0001D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4BA62A72823C88A00F0001D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4BA62AC2823C88A00F0001D /* ito-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ito-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62B22823C88A00F0001D /* ito-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ito-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62B42823C88A00F0001D /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		C4BA62B92823C88A00F0001D /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62BD2823C88A00F0001D /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		C4BA62BF2823C88A00F0001D /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		C4BA62C52823C88A00F0001D /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4BA62C92823C88A00F0001D /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		C4BA62CB2823C88A00F0001D /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4BA62A92823C88A00F0001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62AF2823C88A00F0001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62B62823C88A00F0001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62C22823C88A00F0001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4BA629F2823C88700F0001D = {
+			isa = PBXGroup;
+			children = (
+				C4BA62A42823C88700F0001D /* Shared */,
+				C4BA62B32823C88A00F0001D /* macOS */,
+				C4BA62BC2823C88A00F0001D /* Tests iOS */,
+				C4BA62C82823C88A00F0001D /* Tests macOS */,
+				C4BA62AD2823C88A00F0001D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4BA62A42823C88700F0001D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA62A52823C88700F0001D /* ito_mobileApp.swift */,
+				C4BA62A62823C88700F0001D /* ContentView.swift */,
+				C4BA62A72823C88A00F0001D /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C4BA62AD2823C88A00F0001D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA62AC2823C88A00F0001D /* ito-mobile.app */,
+				C4BA62B22823C88A00F0001D /* ito-mobile.app */,
+				C4BA62B92823C88A00F0001D /* Tests iOS.xctest */,
+				C4BA62C52823C88A00F0001D /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4BA62B32823C88A00F0001D /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA62B42823C88A00F0001D /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		C4BA62BC2823C88A00F0001D /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA62BD2823C88A00F0001D /* Tests_iOS.swift */,
+				C4BA62BF2823C88A00F0001D /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		C4BA62C82823C88A00F0001D /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA62C92823C88A00F0001D /* Tests_macOS.swift */,
+				C4BA62CB2823C88A00F0001D /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (iOS)" */;
+			buildPhases = (
+				C4BA62A82823C88A00F0001D /* Sources */,
+				C4BA62A92823C88A00F0001D /* Frameworks */,
+				C4BA62AA2823C88A00F0001D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ito-mobile (iOS)";
+			productName = "ito-mobile (iOS)";
+			productReference = C4BA62AC2823C88A00F0001D /* ito-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (macOS)" */;
+			buildPhases = (
+				C4BA62AE2823C88A00F0001D /* Sources */,
+				C4BA62AF2823C88A00F0001D /* Frameworks */,
+				C4BA62B02823C88A00F0001D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ito-mobile (macOS)";
+			productName = "ito-mobile (macOS)";
+			productReference = C4BA62B22823C88A00F0001D /* ito-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4BA62B82823C88A00F0001D /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BA62DB2823C88A00F0001D /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				C4BA62B52823C88A00F0001D /* Sources */,
+				C4BA62B62823C88A00F0001D /* Frameworks */,
+				C4BA62B72823C88A00F0001D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BA62BB2823C88A00F0001D /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = C4BA62B92823C88A00F0001D /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C4BA62C42823C88A00F0001D /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4BA62DE2823C88A00F0001D /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				C4BA62C12823C88A00F0001D /* Sources */,
+				C4BA62C22823C88A00F0001D /* Frameworks */,
+				C4BA62C32823C88A00F0001D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4BA62C72823C88A00F0001D /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = C4BA62C52823C88A00F0001D /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4BA62A02823C88700F0001D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C4BA62AB2823C88A00F0001D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C4BA62B12823C88A00F0001D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					C4BA62B82823C88A00F0001D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C4BA62AB2823C88A00F0001D;
+					};
+					C4BA62C42823C88A00F0001D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = C4BA62B12823C88A00F0001D;
+					};
+				};
+			};
+			buildConfigurationList = C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "ito-mobile" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4BA629F2823C88700F0001D;
+			productRefGroup = C4BA62AD2823C88A00F0001D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */,
+				C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */,
+				C4BA62B82823C88A00F0001D /* Tests iOS */,
+				C4BA62C42823C88A00F0001D /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4BA62AA2823C88A00F0001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62D12823C88A00F0001D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62B02823C88A00F0001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62D22823C88A00F0001D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62B72823C88A00F0001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62C32823C88A00F0001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4BA62A82823C88A00F0001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62CF2823C88A00F0001D /* ContentView.swift in Sources */,
+				C4BA62CD2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62AE2823C88A00F0001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62D02823C88A00F0001D /* ContentView.swift in Sources */,
+				C4BA62CE2823C88A00F0001D /* ito_mobileApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62B52823C88A00F0001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62C02823C88A00F0001D /* Tests_iOSLaunchTests.swift in Sources */,
+				C4BA62BE2823C88A00F0001D /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BA62C12823C88A00F0001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4BA62CC2823C88A00F0001D /* Tests_macOSLaunchTests.swift in Sources */,
+				C4BA62CA2823C88A00F0001D /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4BA62BB2823C88A00F0001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BA62AB2823C88A00F0001D /* ito-mobile (iOS) */;
+			targetProxy = C4BA62BA2823C88A00F0001D /* PBXContainerItemProxy */;
+		};
+		C4BA62C72823C88A00F0001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4BA62B12823C88A00F0001D /* ito-mobile (macOS) */;
+			targetProxy = C4BA62C62823C88A00F0001D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C4BA62D32823C88A00F0001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4BA62D42823C88A00F0001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C4BA62D62823C88A00F0001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
+				PRODUCT_NAME = "ito-mobile";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4BA62D72823C88A00F0001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
+				PRODUCT_NAME = "ito-mobile";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BA62D92823C88A00F0001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
+				PRODUCT_NAME = "ito-mobile";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C4BA62DA2823C88A00F0001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.ito-mobile";
+				PRODUCT_NAME = "ito-mobile";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C4BA62DC2823C88A00F0001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ito-mobile (iOS)";
+			};
+			name = Debug;
+		};
+		C4BA62DD2823C88A00F0001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ito-mobile (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4BA62DF2823C88A00F0001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ito-mobile (macOS)";
+			};
+			name = Debug;
+		};
+		C4BA62E02823C88A00F0001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K33C288GRB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "christoph-codes.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "ito-mobile (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4BA62A32823C88700F0001D /* Build configuration list for PBXProject "ito-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BA62D32823C88A00F0001D /* Debug */,
+				C4BA62D42823C88A00F0001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BA62D52823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BA62D62823C88A00F0001D /* Debug */,
+				C4BA62D72823C88A00F0001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BA62D82823C88A00F0001D /* Build configuration list for PBXNativeTarget "ito-mobile (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BA62D92823C88A00F0001D /* Debug */,
+				C4BA62DA2823C88A00F0001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BA62DB2823C88A00F0001D /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BA62DC2823C88A00F0001D /* Debug */,
+				C4BA62DD2823C88A00F0001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4BA62DE2823C88A00F0001D /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4BA62DF2823C88A00F0001D /* Debug */,
+				C4BA62E02823C88A00F0001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4BA62A02823C88700F0001D /* Project object */;
+}
